@@ -1,0 +1,10 @@
+{
+  "name": "vue-abtasty",
+  "version": "1.0.0",
+  "description": "Vue ABTasty integration plugin",
+  "main": "index.js",
+  "author": "Fabien Dobat",
+  "license": "MIT",
+  "module": "./src/index.js",
+  "devDependencies": {}
+}
