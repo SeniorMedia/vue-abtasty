@@ -1,5 +1,5 @@
 // https://git.seniormedia.fr/repatriation/repatriation-app/commit/178f94a82b08bcd95eb79abbe18ca530ee1ede8f
-import { set } from './config'
+import { set, isAsync } from './config'
 import { sync, async } from './codes'
 
 const VueABTasty = {
@@ -10,7 +10,7 @@ const VueABTasty = {
 
     var head = document.head || document.getElementsByTagName('head')[0]
 
-    const script = async()
+    const script = isAsync() ? async() : sync()
 
     head.appendChild(script)
   }

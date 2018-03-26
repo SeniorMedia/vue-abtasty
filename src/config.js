@@ -3,24 +3,22 @@ let config = {
   async: false
 }
 
-function merge (obj, src) {
-  Object.keys(src).forEach((key) => {
-    obj[key] = src[key]
-  })
-
-  return obj
-}
-
 export function set (params) {
-  if (!params || params == {} || !params.id) {
+  if (!params || params === {} || !params.id) {
     throw new Error('[vue-abtasty] Please initialize plugin with an `id` key.')
   }
 
-  merge(config, params)
+  Object.keys(params).forEach((key) => {
+    config[key] = params[key]
+  })
 }
 
 export function getId () {
   return config.id
+}
+
+export function isAsync () {
+  return config.async === true
 }
 
 export default config
