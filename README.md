@@ -25,7 +25,7 @@ npm install vue-abtasty
 ```
 
 ## Usage
-Start using it your Vue application
+Start using it in your Vue application
 ```js
 import VueABTasty from 'vue-abtasty'
 
