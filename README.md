@@ -48,10 +48,9 @@ Vue.use(VueABTasty, {
 ```
 
 ## Develop
-`git clone https://github.com/SeniorMedia/vue-abtasty.git`
-
-`cd vue-abtasty`
-
-`yarn install`
-
-`yarn run test`
+```bash
+git clone https://github.com/SeniorMedia/vue-abtasty.git
+cd vue-abtasty
+yarn install
+yarn run test
+```
