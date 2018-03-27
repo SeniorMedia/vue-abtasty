@@ -1,11 +1,19 @@
 {
   "name": "vue-abtasty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue ABTasty integration plugin",
   "main": "index.js",
   "author": "Fabien Dobat",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeniorMedia/vue-abtasty/issues"
+  },
+  "homepage": "https://github.com/SeniorMedia/vue-abtasty#readme",
   "module": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatteoGabriele/vue-analytics"
+  },
   "devDependencies": {
     "babel-jest": "^22.4.3",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -20,6 +28,11 @@
     "vue": "^2.5.16",
     "vue-jest": "^2.3.0"
   },
+  "keywords": [
+    "abtasty",
+    "vue-abtasty",
+    "vue"
+  ],
   "scripts": {
     "test": "jest"
   },
