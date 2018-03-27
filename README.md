@@ -5,6 +5,9 @@
   <a href="https://www.npmjs.com/package/vue-abtasty">
     <img src="https://img.shields.io/npm/dm/vue-abtasty.svg" />
   <a/>
+  <a href="https://travis-ci.org/SeniorMedia/vue-abtasty">
+    <img src="https://travis-ci.org/SeniorMedia/vue-abtasty.svg?branch=master" />
+  </a>
 </p>
 
 # vue-abtasty
