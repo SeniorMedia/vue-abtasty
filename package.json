@@ -1,6 +1,6 @@
 {
   "name": "vue-abtasty",
-  "version": "0.2",
+  "version": "0.2.0",
   "description": "Vue ABTasty integration plugin",
   "main": "index.js",
   "author": "Fabien Dobat",
