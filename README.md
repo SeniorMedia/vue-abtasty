@@ -21,7 +21,7 @@ yarn add vue-abtasty
 
 or through npm :
 ```bash
-npm install vue-abtasty
+npm install vue-abtasty --save
 ```
 
 ## Usage
