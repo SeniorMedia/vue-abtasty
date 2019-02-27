@@ -1,3 +1,5 @@
+![ABtasty logo](https://www.abtasty.com/content/uploads/abtasty-logo@x2.png)
+
 <p align="center">
   <a href="https://badge.fury.io/js/vue-abtasty">
    <img src="https://badge.fury.io/js/vue-abtasty.svg" />
