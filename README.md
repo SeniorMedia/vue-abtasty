@@ -14,7 +14,7 @@
 
 # vue-abtasty
 
-A simple plugin that allows you to use [ABTasty](https://www.abtasty.com/) in your VueJS project
+Zero dependency plugin that allows you to use [ABTasty](https://www.abtasty.com/) in your VueJS project
 
 ## Installation
 ```bash
