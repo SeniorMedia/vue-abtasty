@@ -1,7 +1,7 @@
-import { getId } from './config'
+import { getIdentifier } from './config'
 
 function getSrc () {
-  return `//try.abtasty.com/${getId()}.js`
+  return `//try.abtasty.com/${getIdentifier()}.js`
 }
 
 export function sync () {

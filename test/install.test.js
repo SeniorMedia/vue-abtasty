@@ -7,20 +7,20 @@ it ('should throw an error if parameters are missing', () => {
   }).toThrowError()
 })
 
-it ('should throw an error if the parameter `id` is missing', () => {
+it ('should throw an error if the parameter `identifier` is missing', () => {
   expect(() => {
     Vue.use(VueABTasty, {})
   }).toThrowError()
 })
 
-it ('should throw an error if the parameter `id` is empty', () => {
+it ('should throw an error if the parameter `identifier` is empty', () => {
   expect(() => {
-    Vue.use(VueABTasty, { id: null })
+    Vue.use(VueABTasty, { identifier: null })
   }).toThrowError()
 })
 
 it ('should load ABTasty script', function () {
   expect(() => {
-    Vue.use(VueABTasty, { id: 'ABC123' })
+    Vue.use(VueABTasty, { identifier: 'ABC123' })
   }).not.toThrowError()
 })

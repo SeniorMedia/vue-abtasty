@@ -1,11 +1,11 @@
 let config = {
-  id: null,
+  identifier: null,
   async: false
 }
 
 export function set (params) {
-  if (!params || params === {} || !params.id) {
-    throw new Error('[vue-abtasty] Please initialize plugin with an `id` key.')
+  if (!params || params === {} || !params.identifier) {
+    throw new Error('[vue-abtasty] Please initialize plugin with an `identifier` key.')
   }
 
   Object.keys(params).forEach((key) => {
@@ -13,8 +13,8 @@ export function set (params) {
   })
 }
 
-export function getId () {
-  return config.id
+export function getIdentifier () {
+  return config.identifier
 }
 
 export function isAsync () {

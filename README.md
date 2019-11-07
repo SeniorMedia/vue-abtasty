@@ -32,13 +32,13 @@ Start using it in your Vue application
 import VueABTasty from 'vue-abtasty'
 
 Vue.use(VueABTasty, {
-  id: '[YOUR-TOKEN]'
+  identifier: '[YOUR-TOKEN]'
 })
 ```
 
 ## Options
 
-- `id` key is mandatory. You can find it on your ABTasty configuration page
+- `identifier` key is mandatory. You can find it on your ABTasty configuration page
 - `async` key is optional. Values can either be `true` or `false` depending if you want async script or not. Default is `false`
 
 ### Example :
@@ -47,7 +47,7 @@ Vue.use(VueABTasty, {
 import VueABTasty from 'vue-abtasty'
 
 Vue.use(VueABTasty, {
-  id: 'ABC123',
+  identifier: '1234567890abcdef1234567890abcdef',
   async: true
 })
 ```
