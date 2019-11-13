@@ -4,7 +4,7 @@ import { sync, async } from './codes'
 
 const VueABTasty = {
   install (Vue, options) {
-    // options : id!, async
+    // options : identifier!, async
 
     set(options || {})
 
